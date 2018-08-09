@@ -25,12 +25,17 @@ class CalculatorTests {
     @Test
     void mul() {
         Calculator calculator = new Calculator();
-        assertEquals(15, calculator.mul(3, 5), "3 * 5 should equal -15");
+        assertEquals(15, calculator.mul(3, 5), "3 * 5 should equal 15");
     }
     @Test
     void sub() {
         Calculator calculator = new Calculator();
-        assertEquals(777, calculator.mul(7, 2), "7 - 2 should equal 777"); // false test
+        assertEquals(14, calculator.sub(7, 2), "7 - 2 should equal 15");
+    }
+    @Test
+    void div() {
+        Calculator calculator = new Calculator();
+        assertEquals(3, calculator.div(7, 2), "7 / 2 should equal 3");
     }
 
 }
