@@ -27,5 +27,10 @@ class CalculatorTests {
         Calculator calculator = new Calculator();
         assertEquals(15, calculator.mul(3, 5), "3 * 5 should equal -15");
     }
+    @Test
+    void sub() {
+        Calculator calculator = new Calculator();
+        assertEquals(777, calculator.mul(7, 2), "7 - 2 should equal 777"); // false test
+    }
 
 }
