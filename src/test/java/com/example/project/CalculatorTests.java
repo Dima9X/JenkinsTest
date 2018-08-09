@@ -30,7 +30,7 @@ class CalculatorTests {
     @Test
     void sub() {
         Calculator calculator = new Calculator();
-        assertEquals(14, calculator.sub(7, 2), "7 - 2 should equal 15");
+        assertEquals(5, calculator.sub(7, 2), "7 - 2 should equal 5");
     }
     @Test
     void div() {
