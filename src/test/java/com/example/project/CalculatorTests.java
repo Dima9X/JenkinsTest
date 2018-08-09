@@ -25,7 +25,7 @@ class CalculatorTests {
     @Test
     void mul() {
         Calculator calculator = new Calculator();
-        assertEquals(-15, calculator.mul(3, 5), "3 * 5 should equal -15"); // false test
+        assertEquals(15, calculator.mul(3, 5), "3 * 5 should equal -15");
     }
 
 }
