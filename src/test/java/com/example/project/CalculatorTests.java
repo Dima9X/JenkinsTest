@@ -16,10 +16,16 @@ import org.junit.jupiter.api.Test;
 
 class CalculatorTests {
 
-	@Test
-	void add() {
-		Calculator calculator = new Calculator();
-		assertEquals(55, calculator.add(1, 1), "1 + 1 should equal 2");
-	}
+    @Test
+    void add() {
+        Calculator calculator = new Calculator();
+        assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
+    }
+    
+    @Test
+    void mul() {
+        Calculator calculator = new Calculator();
+        assertEquals(-15, calculator.mul(3, 5), "3 * 5 should equal -15"); // false test
+    }
 
 }
