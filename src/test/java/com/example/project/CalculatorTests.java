@@ -35,7 +35,7 @@ class CalculatorTests {
     @Test
     void div() {
         Calculator calculator = new Calculator();
-        assertEquals(3, calculator.div(7, 2), "7 / 2 should equal 3");
+        assertEquals(5, calculator.div(7, 2), "7 / 2 should equal 3");//err test
     }
 
 }
